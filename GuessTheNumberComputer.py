@@ -1,4 +1,5 @@
 import random
+
 def guess(x):
     random_number = random.randint(1,x)
     guess = 0
@@ -9,4 +10,5 @@ def guess(x):
         elif guess > random_number:
             print("Sorry, guess again, too high")
     print(f"Yay, you got it right; the number is {random_number}")
+#Sets the range for the number to be chosen from
 guess(50)

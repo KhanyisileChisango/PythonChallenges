@@ -7,7 +7,7 @@ def calculate_area():
 def calculate_perimeter():
     length = int(input("Insert rectangle length: "))
     width = int(input("Insert rectangle width: "))
-    perimeter = (length + width) * 2
+    perimeter = int(length + width) * 2
     print(f"Perimeter = {perimeter}")
 
 calculation = str(input("Do you want to calculate area or perimeter? "))
